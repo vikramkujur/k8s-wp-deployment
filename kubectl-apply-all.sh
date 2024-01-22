@@ -2,9 +2,11 @@ kubectl apply -f mysql-secret.yaml
 kubectl apply -f sc.yaml
 kubectl apply -f mysql-pv.yaml
 kubectl apply -f mysql-vol.yaml
-kubectl apply -f mysql.yaml
+kubectl apply -f My-Sql.yaml
+#kubectl apply -f mysql.yaml
 kubectl apply -f mysql-service.yaml
 kubectl apply -f wordpress-pv.yaml
 kubectl apply -f vp-volume.yaml
-kubectl apply -f wp.yaml
+kubectl apply -f wordpress.yaml
+#kubectl apply -f wp.yaml
 kubectl apply -f wp-service.yaml
